@@ -12,13 +12,14 @@
       <h1 class="header__title">Quiz-App</h1>
     </header>
     <main>
-      <form class="question-form" data-js="form">
+      <fieldset class="question-form" data-js="form">
+        <fieldset>
         <label class="question-form__input"></label>
-        <textarea class="question-form__input" name="your_question">
-Your question</textarea
-        >
-        <textarea name="your_answer">Your answer</textarea>
-        <p>Tag:</p>
+        <h2>Your questions</h2>
+        <textarea name="your_question"></textarea>
+        <h2>Your answer</h2>
+        <textarea name="your_answer"></textarea>
+        <h2>Tag:</h2>
         <input type="text" name="tag" />
         <br />
         <br />
@@ -29,6 +30,7 @@ Your question</textarea
         >
           Submit
         </button>
+      </fieldset>
       </form>
     </main>
     <nav class="navigation">
